@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth!important;
+html {
+  scroll-behavior: smooth !important;
 }
-body{
-    position: relative;
+/* body {
+  position: relative;
+} */
+.hero {
+  min-height: 100vh;
 }
-.hero{
-    min-height: calc(100vh - 80px);
+.hero-text{
+  height: calc(100vh - 109px);
 }

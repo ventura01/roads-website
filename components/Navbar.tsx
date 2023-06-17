@@ -13,8 +13,8 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <header className="z-10">
-      <nav className="container mx-auto max-w-screen-xl py-4">
+    <header className="z-[50]">
+      <nav className="container mx-auto max-w-screen-xl py-8">
         <div className="flex items-center justify-between">
           <div className="inline-block">
             <Image
