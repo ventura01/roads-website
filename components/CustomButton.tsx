@@ -19,7 +19,7 @@ const CustomButton = ({
       onClick={handleClick}
     >
       {title}
-      <ArrowRight size={18} className={`inline-block ml-3${iconStyles}`} />
+      <ArrowRight size={18} className={`inline-block ${iconStyles}`} />
     </button>
   );
 };

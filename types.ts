@@ -7,3 +7,7 @@ export interface CustomButtonProps {
   iconStyles?: string;
   btnType?: "button" | "submit";
 }
+export interface FooterLinksProps {
+  title: string;
+  links: [{ title: string,url: string}]
+}

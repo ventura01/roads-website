@@ -1,7 +1,8 @@
 export const navbarlinks = [
   { title: "home", url: "/" },
-  { title: "services", url: "/" },
-  { title: "contact", url: "/" },
+  { title: "about us", url: "#aboutus" },
+  { title: "services", url: "#services" },
+  { title: "contact", url: "#contactus" },
 ];
 export const footerlinks = [
   {
@@ -11,6 +12,15 @@ export const footerlinks = [
       { title: "featured", url: "/" },
       { title: "partnership", url: "/" },
       { title: "business relation", url: "/" },
+    ],
+  },
+  {
+    title: "company",
+    links: [
+      { title: "events", url: "/" },
+      { title: "blogs", url: "/" },
+      { title: "podcast", url: "/" },
+      { title: "career", url: "/" },
     ],
   },
 ];
