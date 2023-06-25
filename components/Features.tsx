@@ -10,7 +10,7 @@ const Features = (props: Props) => {
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="container mx-auto max-w-screen-xl bg-yellow-600 ">
           <div className="">
-            <article className="flex flex-col gap-y-10 py-32 md:pl-80 px-10 md:px-0">
+            <article className="flex flex-col gap-y-10 py-20 md:pl-80 px-10 md:px-0">
               <h2 className="text-3xl font-semibold uppercase tracking-wide text-yellow-300 md:text-left text-center">
                 option
               </h2>

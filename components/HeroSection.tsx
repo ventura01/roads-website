@@ -14,12 +14,12 @@ const HeroSection = (props: Props) => {
           <Navbar />
         </div>
         {/* <div className="absolute bottom-0 left-0 right-0 top-0 z-[0] bg-black/40" /> */}
-        <div className="hero-text z-[3] mx-auto flex items-center justify-center px-[600px]">
+        <div className="hero-text z-[3] mx-auto flex items-center justify-center px-5 lg:px-[600px]">
           <div className="flex flex-col justify-center gap-y-10">
-            <h1 className="text-center text-5xl font-semibold text-white">
+            <h1 className="text-center text-4xl md:text-5xl font-semibold leading-6 md:leading-7 text-white">
               Lorem ipsum dolor sit consectetur elit.
             </h1>
-            <p className="text-white">
+            <p className="text-white text-center leading-4 md:leading-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
               quaerat? Suscipit porro minima recusandae dicta accusantium
               impedit ipsa in voluptates maiores error eos quia, earum

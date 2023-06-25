@@ -65,7 +65,7 @@ const Footer = (props: Props) => {
                 title="Subscribe!"
                 iconStyles="hidden"
                 btnType="submit"
-                containerStyles="bg-yellow-500 text-white px-2 rounded-sm font-semibold"
+                containerStyles="bg-yellow-600 text-white px-2 rounded-sm font-semibold"
               />
             </div>
           </div>

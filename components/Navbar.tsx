@@ -15,7 +15,7 @@ const Navbar = (props: Props) => {
   return (
     <header className="">
       <nav className="container mx-auto max-w-screen-xl py-8">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center px-5 md:px-5 justify-between">
           <div className="inline-block">
             <Image
               src="/img/roads-logo.png"
@@ -26,7 +26,7 @@ const Navbar = (props: Props) => {
             />
           </div>
           <div className="flex gap-x-10">
-            <div className=" flex gap-x-4">
+            <div className="hidden md:flex md:gap-x-4">
               {navbarlinks.map((link) => (
                 <Link
                   key={link.title}
