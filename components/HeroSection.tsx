@@ -30,8 +30,9 @@ const HeroSection = (props: Props) => {
               <CustomButton
                 title="Explore"
                 handleClick={handleScroll}
-                containerStyles="border-4 border-indigo-500 rounded-sm text-white py-3 px-10 hover:border-indigo-800"
+                containerStyles="bg-indigo-500 rounded-sm text-white py-3 px-10 hover:bg-white hover:text-indigo-500 font-semibold"
                 btnType="button"
+                iconStyles="ml-3"
               />
             </div>
           </div>

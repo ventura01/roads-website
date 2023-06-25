@@ -2,6 +2,7 @@
 
 import React from "react";
 import CustomButton from "./CustomButton";
+import Image from "next/image";
 
 type Props = {};
 
@@ -11,10 +12,19 @@ const ContactUs = (props: Props) => {
   };
   const onchange = () => {};
   return (
-    <section id="contactus" className="bg-neutral-300 py-20">
-      <div className="mx-auto flex min-h-[350px] w-1/4 shadow-lg flex-col items-center justify-center bg-white py-5 ">
-        <h2 className="text-4xl font-bold">Get in touch</h2>
-        <h3 className="text-md font-semibold">
+    <section id="contactus" className="grid grid-cols-1 md:grid-cols-2">
+      <div className="hidden md:flex">
+        <Image
+          src="/contact.jpg"
+          width={600}
+          height={600}
+          alt="contact-img"
+          className="w-full object-cover object-center"
+        />
+      </div>
+      <div className="mx-auto flex min-h-[350px] flex-col items-center justify-center bg-white md:py-5 py-20 px-10 md:px-0">
+        <h2 className="mb-3 text-4xl font-bold">Contact Us</h2>
+        <h3 className="text-md mb-5 font-semibold text-center">
           Got a question or proposal? Write us.
         </h3>
         <form onSubmit={onSubmit} className="flex flex-col gap-y-5 py-5">
@@ -73,7 +83,8 @@ const ContactUs = (props: Props) => {
           <CustomButton
             title="Submit"
             btnType="submit"
-            containerStyles="border-4 font-semibold border-indigo-500 rounded-sm text-black py-3 px-10 hover:border-indigo-300"
+            containerStyles="border-4 font-semibold border-indigo-500 rounded-sm text-indigo-500 py-3 px-10 hover:bg-indigo-500 hover:text-white"
+            iconStyles="ml-3"
           />
         </form>
       </div>

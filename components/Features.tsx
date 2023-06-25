@@ -10,8 +10,8 @@ const Features = (props: Props) => {
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="container mx-auto max-w-screen-xl bg-yellow-600 ">
           <div className="">
-            <article className="flex flex-col gap-y-10 py-32 pl-80">
-              <h2 className="text-3xl font-semibold uppercase tracking-wide text-yellow-200">
+            <article className="flex flex-col gap-y-10 py-32 md:pl-80 px-10 md:px-0">
+              <h2 className="text-3xl font-semibold uppercase tracking-wide text-yellow-300 md:text-left text-center">
                 option
               </h2>
               <p className="tracking-wide text-yellow-100">
@@ -21,11 +21,12 @@ const Features = (props: Props) => {
                 ratione asperiores itaque, dicta, quaerat sapiente rem enim
                 commodi veritatis blanditiis omnis dignissimos!
               </p>
-              <div className="inline-block self-start">
+              <div className="flex justify-center md:inline-block md:self-start">
                 <CustomButton
                   title="See more"
                   btnType="button"
-                  containerStyles="border-4 font-semibold border-white rounded-sm text-yellow-200 py-3 px-10 hover:border-indigo-500"
+                  containerStyles="border-4 font-semibold border-white rounded-sm text-white py-3 px-10 hover:bg-white hover:text-yellow-500"
+                  iconStyles="ml-3"
                 />
               </div>
             </article>
@@ -38,6 +39,7 @@ const Features = (props: Props) => {
             height={600}
             alt="feature-img"
             className="max-h-[550px] w-full object-cover object-center"
+            loading="lazy"
           />
         </div>
       </div>
