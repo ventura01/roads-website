@@ -5,6 +5,7 @@ import Features from '@/components/Features'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
+import ScrollToTopBtn from '@/components/ScrollToTopBtn'
 import Services from '@/components/Services'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Features />
       <ContactUs />
+      <ScrollToTopBtn />
     </main>
   )
 }

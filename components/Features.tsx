@@ -12,7 +12,7 @@ const Features = (props: Props) => {
           <div className="">
             <article className="flex flex-col gap-y-10 py-20 md:pl-80 px-10 md:px-0">
               <h2 className="text-3xl font-semibold uppercase tracking-wide text-yellow-300 md:text-left text-center">
-                option
+                the best option
               </h2>
               <p className="tracking-wide text-yellow-100">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
