@@ -45,7 +45,7 @@ const Navbar = (props: Props) => {
               ref={menuRef}
               className={`${
                 menuOpen
-                  ? "fixed right-6 top-20 flex flex-col z-[1] gap-y-20 rounded-2xl bg-gray-900 px-32 pb-20 pt-20 md:hidden"
+                  ? "fixed right-6 top-20 flex flex-col z-[1] gap-y-16 rounded-2xl bg-gray-900 px-32 pb-20 pt-20 md:hidden"
                   : "hidden md:flex md:gap-x-4"
               }`}
             >
@@ -54,7 +54,7 @@ const Navbar = (props: Props) => {
                   onClick={() => setMenuOpen(false)}
                   key={link.title}
                   href={link.url}
-                  className="cursor-pointer text-sm font-normal capitalize text-white hover:text-purple-700"
+                  className="cursor-pointer text-sm font-normal capitalize text-indigo-300 md:text-white hover:text-purple-700"
                 >
                   {link.title}
                 </Link>
@@ -72,7 +72,7 @@ const Navbar = (props: Props) => {
             <div>
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
-                className="fixed right-5 top-9 rounded-full bg-white px-2 py-2 text-indigo-500 md:hidden"
+                className="fixed right-5 top-9 rounded-full bg-gray-900 px-2 py-2 text-indigo-300 md:hidden"
               >
                 {menuOpen ? <X size={18} /> : <List size={18} />}
               </button>

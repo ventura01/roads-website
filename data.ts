@@ -3,6 +3,7 @@ export const navbarlinks = [
   { title: "about us", url: "#aboutus" },
   { title: "services", url: "#services" },
   { title: "contact", url: "#contactus" },
+  { title: "info", url: "#info" },
 ];
 export const footerlinks = [
   {

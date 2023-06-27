@@ -15,7 +15,7 @@ type Props = {};
 const year = new Date().getFullYear();
 const Footer = (props: Props) => {
   return (
-    <footer id="contact" className="bg-indigo-900 py-20">
+    <footer id="info" className="bg-indigo-900 py-20">
       <div className="container  mx-auto grid max-w-screen-xl grid-cols-1 md:grid-cols-3">
         <div className="flex flex-col gap-y-10 row-start-3 row-end-4 items-center md:row-start-1 md:row-end-2 md:items-start">
           <div>
