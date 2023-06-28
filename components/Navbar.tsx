@@ -45,7 +45,7 @@ const Navbar = (props: Props) => {
               ref={menuRef}
               className={`${
                 menuOpen
-                  ? "fixed right-6 top-20 flex flex-col z-[1] gap-y-12 rounded-2xl bg-gray-900 px-32 pb-20 pt-20 md:hidden"
+                  ? "fixed w-[95%] left-2 top-20 flex flex-col z-[1] gap-y-12 rounded-2xl bg-gray-900 px-32 pb-20 pt-20 md:hidden"
                   : "hidden md:flex md:gap-x-4"
               }`}
             >

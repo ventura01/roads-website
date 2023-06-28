@@ -12,7 +12,7 @@ const ContactUs = (props: Props) => {
   };
   const onchange = () => {};
   return (
-    <section id="contactus" className="grid grid-cols-1 md:grid-cols-2">
+    <section id="contactus" className="grid grid-cols-1 bg-blue-800 md:grid-cols-2">
       <div className="hidden md:flex">
         <Image
           src="/contact.jpg"
@@ -22,14 +22,14 @@ const ContactUs = (props: Props) => {
           className="w-full object-cover object-center"
         />
       </div>
-      <div className="mx-auto flex min-h-[350px] flex-col items-center justify-center bg-white md:py-5 py-20 px-10 md:px-0">
-        <h2 className="mb-3 text-4xl font-bold">Contact Us</h2>
-        <h3 className="text-md mb-5 font-semibold text-center">
+      <div className="mx-auto flex min-h-[350px] flex-col items-center justify-center bg-blue-800 md:py-5 py-20 px-10 md:px-0">
+        <h2 className="mb-3 text-4xl font-bold text-blue-300">Contact Us</h2>
+        <h3 className="text-md mb-5 font-semibold text-center text-blue-100">
           Got a question or proposal? Write us.
         </h3>
         <form onSubmit={onSubmit} className="flex flex-col gap-y-5 py-5">
           <div>
-            <label htmlFor="name">Full Name</label>
+            <label className="text-white" htmlFor="name">Full Name</label>
             <input
               type="text"
               name="name"
@@ -43,7 +43,7 @@ const ContactUs = (props: Props) => {
           </div>
 
           <div>
-            <label htmlFor="email">Email</label>
+            <label className="text-white" htmlFor="email">Email</label>
             <input
               type="email"
               name="email"
@@ -56,7 +56,7 @@ const ContactUs = (props: Props) => {
             />
           </div>
           <div>
-            <label htmlFor="textarea">Message</label>
+            <label className="text-white" htmlFor="textarea">Message</label>
             <textarea
               name="message"
               id="textarea"
@@ -76,14 +76,14 @@ const ContactUs = (props: Props) => {
               id="agree"
               className="rounded text-indigo-500 focus:border-indigo-500"
             />
-            <label htmlFor="agree" className="ml-3">
+            <label htmlFor="agree" className="ml-3 text-white">
               I agree with the Terms and Privacy Policy.
             </label>
           </div>
           <CustomButton
             title="Submit"
             btnType="submit"
-            containerStyles="border-4 font-semibold border-indigo-500 rounded-sm text-indigo-500 py-3 px-10 hover:bg-indigo-500 hover:text-white"
+            containerStyles="border-4 font-semibold border-white rounded-sm text-white py-3 px-10 hover:bg-white hover:text-blue-500"
             iconStyles="ml-3"
           />
         </form>
