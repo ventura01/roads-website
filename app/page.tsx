@@ -7,6 +7,7 @@ import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
 import ScrollToTopBtn from '@/components/ScrollToTopBtn'
 import Services from '@/components/Services'
+import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Features />
       <ContactUs />
       <ScrollToTopBtn />
+      <Testimonials />
     </main>
   )
 }

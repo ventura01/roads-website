@@ -27,10 +27,10 @@ const ScrollToTopBtn = (props: Props) => {
     <div>
       {backToTop ? (
         <button
-          className="fixed md:bottom-72 hidden md:block bottom-20 right-20 md:right-52 rounded-full bg-white px-2 py-2 text-indigo-500"
+          className="fixed md:bottom-72 hidden md:block bottom-20 right-20 md:right-52 rounded-full bg-gray-900 px-2 py-2 text-indigo-300"
           onClick={scrollUp}
         >
-          <ArrowUp size={32} />
+          <ArrowUp size={24} />
         </button>
       ) : null}
     </div>
